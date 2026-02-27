@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://visualdasborad-frontend-c1gl.onrender.com",
+  origin: ["https://visualdasborad-frontend-c1gl.onrender.com"],
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
