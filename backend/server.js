@@ -12,7 +12,7 @@ const app = express();
 /* ---------- CORS FIX ---------- */
 app.use(cors({
   origin: [
-    "https://visualdasborad-frontend-c1gl.onrender.com"
+    "https://visualdasborad-frontend.onrender.com/"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
